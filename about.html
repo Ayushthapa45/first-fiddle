@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About</title>
+</head>
+<!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"crossorigin="anonymous">
+<!--javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<style>
+    .navbar{
+    background: #00000082!important;
+}  
+    .navbar-nav li
+ { 
+  padding: 0 10px;
+ }
+.navbar-nav li a
+{
+color: #fff!important;
+font-size: 18px;
+font-weight: 600;
+}
+.weblogo{
+    width:75px;
+}
+
+.carousel-caption{
+size: bold;
+color: #fff;
+position: absolute;
+top: 27%;
+left: 153px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+ }
+
+.about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+
+.a{
+  padding-top: 40px;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 40px;
+  text-align: center!important;
+  
+}
+.c{
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-right: 5px;
+  color: #6c757d!important;
+  margin-right: 20px;
+}
+  
+  .d{
+    background: url('/image/bannerabout.jpg');
+    color: white;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+    margin-top: 32px;
+  }
+
+  .e{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    color: white;
+    margin-top: 80px;
+    width: 100%;
+  }
+  .word{
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-align: left;
+    }
+  .man{
+    padding-bottom: 20px;
+  }
+  .w{
+    padding-bottom: 40px;
+  }
+  .f{
+    background: url('/image/outletbanner.png');
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 100px;
+    margin-top: 32px;
+  }  
+  footer{
+    background: #020306f0;
+    padding-top: 70px;
+    padding-bottom: 1%;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff;
+  }
+  footer h2{
+    font-family: 'prague';
+   font-size: 40px;
+   line-height: 50px;
+   letter-spacing: 3px;
+   color: #fff;
+  }
+  footer p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+  footer .foot-add
+  {
+    padding: 15px;
+  }
+  footer a{
+    text-decoration: none;
+  }
+  footer b{
+     color: #fcb21b;      
+  }
+  .social-icons{
+    padding-top: 20px;    }
+  .end{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+      
+  @media(max-width:768px)
+  {
+    .img{
+       width: 100%;
+    }
+  }
+  
+@media(min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+</style>
+<body>
+  <!--nav bar start-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand">
+        <img src="/image/ff-logo-02.png"class="weblogo">
+        </a>
+        <!--mobile menu-->
+        <button class="navbar-toggler" data-bs-target="#na" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--menu div start-->
+        <div class="navbar-collapse collapse" id="na">
+            <ul class="navbar-nav ms-auto text-center">
+                <li> <a href="/firstfiddle.html" class="nav-link" > HOME</a></li>
+                <li> <a href="/about.html" class="nav-link"> ABOUT</a></li>
+                <li> <a href="/brands.html" class="nav-link"> BRANDS</a></li>
+                <li> <a href="/teams.html" class="nav-link"> OUR TEAM</a></li>
+                <li> <a href="/press.html" class="nav-link"> PRESS RELEASE</a></li>
+                <li> <a href="/contact.html" class="nav-link"> CONTACT</a></li>
+                <li> <a href="/careers.html" class="nav-link"> CAREERS</a></li>
+                <li> <a href="" class="btn btn-outline-warning"> FRANCHISE</a></li>
+            </ul>
+        </div> <!--menu div end-->
+    </div>
+</nav>
+
+<div class="banner">
+   <img src="https://1.bp.blogspot.com/-0iFBbtWlixg/XWeGSH7lANI/AAAAAAAAADw/piI0_f-qr6ku9blIbiNfELUVRi7ijQo5QCEwYBhgL/s1600/fd297166c15032e4c269e1aa20ccc92b.jpg" alt="" style="width:100%" >
+   <div class="about">ABOUT</div>
+</div>
+
+<!--div container start-->  
+  <div class="container">
+    <h2 class="a">OUR STORY <b style="color:#f8af31"> SINCE 1999</b></h2>
+     <br>
+    <div class="row">
+      <div class="col-md-7">
+        <p class="c">First Fiddle Restaurants, formerly known as The Lazeez Affaire Group, was conceived in the year 1999 by Priyank Sukhija and Y.P. Ashok. The company is a renowned innovator and leader in the hospitality industry. Opened in the year 1999, the first outlet by the company- Lazeez Affaire, popularised the concept of fine dining in India. Following its success, places like Warehouse Cafe followed storming Delhi's nightlife. Eventually, 'The Flying Saucer Cafe' captivated the metropolis with the famous Sufi nights. Other well-known brands include 'Lord Of The Drinks', 'Dragonfly Experience', 'Plum by Bentchair', 'JLWA', 'Tamasha', 'Teddy Boy', 'Openhouse Cafe', and others.<br><br>
+          
+          The company is dedicated to being a game changer in the F&B industry with the introduction of 'concept' restaurants. The company is committed to catering to the ever-changing cosmopolitan taste of its customers & customer satisfaction is an utmost priority. The restaurants are spread all over India in major metropolitan cities like New Delhi, Mumbai, Pune, Lucknow and more. Our major brands include 'Lord of the Drinks', 'Dragonfly Experience', 'Plum by Bentchair', 'Tamasha', 'The FlyingSaucer Cafe', 'JLWA' - to name a few. Plans for global expansion are underway.
+          
+          </p>
+     
+          <button class="btn btn-warning btn mb-3" style="color: white;">FIND OUT MORE</button>
+      
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="/image/ffabout.png" style=" width: 100%">
+      </div>
+    </div><!--row end-->  
+  </div><!--container end-->   
+
+
+<div class="container-fluid d">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h1 class="e"> THE GAME CHANGER </h1>
+        <p>The company is dedicated to being a game changer in the F&B industry with the introduction of 'concept' restaurants. The company is committed to catering to the ever-changing cosmopolitan taste of its customers & customer satisfaction is an utmost priority.
+        </p><br>
+      </div>
+      </div>
+  </div> <!--container end-->
+</div> <!--fluid end-->
+
+
+<!--div container start-->  
+<div class="container fluid man">
+  <h2 class="a">THE MAN BEHIND <b style="color:#f8af31"> THE FIDDLE</b></h2>
+   <br>
+  <div class="row">
+    
+    <div class="col-md-5 text-center">
+      <img src="/image/Priyank.webp" style=" width: 80%">
+    </div>
+
+    <div class="col-md-7">
+      <p class="word">With over 30 restaurants in 23 years under his belt, the prolific restaurateur Priyank Sukhija has become somewhat of a legend in the industry, starting his journey at a mere age of 19. Priyank was the first in his family to venture into business, hailing from a family of lawyers, going on to create an empire in F&B. Following his heart and tongue through his F&B career, Priyank has successfully created some of the most talked-about brands in the industry - Diablo, Lord of the Drinks, Plum by Bent Chair, Lazeez Affaire, Tamasha, The Flying Saucer Cafe, and many more.
+        </p>
+   
+    
+    </div>
+  </div><!--row end-->  
+</div><!--container end-->  
+
+<!--div container start-->  
+<div class="container fluid w">
+  <h2 class="a">JOIN <b style="color:#f8af31"> OUR FAMILY</b></h2>
+   <br>
+  <div class="row">
+    <div class="col-md-7">
+      <p class="word">At First Fiddle Restaurants, we leave no stone unturned to provide the most desirable experiences across markets and restaurants. Serving over five lakhs of customers monthly with 20+ brands and 35+ restaurants, our brands like Plum by Bent Chair, Dragonfly Experience, Tamasha, Daddy, JLWA, and many more have revolutionized the experience of dining & nightlife for everyone with its outstanding concepts. We're now foraying into franchising model, and franchise with First Fiddle Restaurants provides you with an already existing large customer base with the added advantage of nation-wide recognition.
+        
+        </p>
+   
+        <button class="btn btn-warning btn mb-3" style="color: white;">FRANCHISE WITH US</button>
+    
+    </div>
+    <div class="col-md-5 text-center">
+      <img src="/image/OIP.jpg" style="height: 400px; width:100%">
+    </div>
+  </div><!--row end-->  
+</div><!--container end-->   
+
+</body>
+
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 text-center">
+        <img src="/image/ff-logo-02.png" style="margin-top:30px
+        ;width: 50%;">
+      </div>
+      <div class="col-md-7">
+        <h2 class="">
+          <span style="color: #ffad00; ">CONTACT </span>Us
+        </h2>
+        <p>We're a team focusing on redefining the way the hospitality industry works by bringing in concept based restaurants across India. We are truly committed to catering to the ever-changing cosmopolitan taste of the customer and revolutioning the F & B industry!</p>
+        <div class="row">
+          <div class="col-md-6 foot-add">
+            <span>
+              <b>Address:</b>
+              <br> 
+              S-357 2nd floor, Block S, Panchsheel Park South, Panchsheel Park, New Delhi, Delhi 110017
+            </span>
+             <div class="social-icons"> 
+              <a href="https://www.linkedin.com">
+                <img src="/image/linkedin (1).png"style="height: 30px">
+              </a>&nbsp;&nbsp;
+                <a href="https://www.facebook.com">
+                 <img src="/image/facebook.png" style="height: 30px;">
+                </a> &nbsp;&nbsp;
+              <a href="https://www.twitter.com">
+                  <img src="/image/twitter.png" style="height: 30px;">
+              </a> &nbsp&nbsp;
+                 <a href="https://www.instagram.com">
+                     <img src="/image/instagram.png" style="height: 30px;">
+                 </a>
+               </div> <!--icons div end-->  
+          </div>
+          <div class="col-md-6 foot-add">
+              <b> Enquiry </b>
+               <br > 
+               Email: <a href="customercare@firstfiddle.in"><b>customercare@firstfiddle.in</b></a>
+             </span>
+          </div>
+          
+        </div><!--row end-->
+        <div class="row">
+          <div class="col-md-6 foot-add">
+            <img src="" href="https://www.linkedin.com/company/first-fiddle-restaurants/">
+          </div>
+        </div><!--row end-->  
+   
+      </div>
+      
+    </div><!--row end-->
+  </div><!--container-fluid end-->  
+</footer>
+<div class="end">
+ <p>EMPLOYEE POLICIES |PRIVACY POLICY |TERMS AND CONDITIONS | BLOG | APP <br>
+  COPYRIGHT © 2021 FIRST FIDDLE F&B PRIVATE LIMITED</p>
+</div>
+</html>
